@@ -79,6 +79,7 @@ L.control.scale({maxWidth: 100, metric: true, imperial: true}).setPosition('bott
 
 var data = {"type":"FeatureCollection","crs":{"type":"name","properties":{"name":"EPSG:3857"}},"features":[{"type":"Feature","id":222,"geometry":{"type":"Polygon","coordinates":[[[2063786.2402999997,-4022227.0280000009],[2063786.2111999989,-4022227.0958000012],[2063786.0194000006,-4022227.1779000014],[2063786.2978999987,-4022227.250599999],[2063786.3370999992,-4022227.0280000009],[2063786.2402999997,-4022227.0280000009]]]},"properties":{"OBJECTID":222,"Id":222,"gridcode":1,"Shape_Length":0.89307160683155251,"Shape_Area":0.034369664555444421}}]};  
 
+  L.geoJSON(data).addTo(map);
 
 </script>
 </body>
